@@ -1,8 +1,7 @@
-from keras.engine import Model
-import time
-
 __author__ = 'xuwei'
 
+from keras.engine import Model
+import time
 import os
 from common_convnet.utils.utils import console_logger
 from keras.callbacks import ModelCheckpoint
@@ -10,7 +9,7 @@ from keras.models import load_model
 from keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 from keras.preprocessing import image
-from gender_classifier.imagenet_utils import preprocess_input
+from common_convnet.utils.imagenet_utils import preprocess_input
 
 import tensorflow as tf
 
